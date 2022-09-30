@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero</title>
+    <style>
+      header {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 60px 0;
+      }
+
+      header h1 {
+        color: white;
+      }
+
+      header h3 {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+      }
+
+      header p {
+        color: white;
+        margin-bottom: 30px;
+      }
+
+      header button {
+        padding: 8px 15px;
+        border-radius: 4px;
+        border: none;
+      }
+
+      @media (max-width: 800px) {
+        header {
+          padding: 30px 0;
+        }
+        
+        header h1 {
+          font-size: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3>🇨🇭 Switzerland</h3>
+      <h1>Visit Matterhorn</h1>
+      <p>The most beautiful mountain in the world</p>
+      <button>Contact us</button>
+    </header>
+  </body>
+</html>
